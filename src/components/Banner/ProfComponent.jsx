@@ -1,10 +1,9 @@
 import React from "react";
 import styled from "styled-components";
-import { AiOutlineInstagram } from "react-icons/ai";
-import { GiEarthAmerica } from "react-icons/gi";
+import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { Slide } from "react-awesome-reveal";
-
+import ProfilePicture from "./images/ProfilePicture.png";
 const ProfComponent = () => {
   return (
     <Container id="home">
@@ -29,17 +28,12 @@ I am excited to take on new challenges and opportunities to advance my learning 
             <p>Check out my</p>
             <div className="social-icons">
               <span>
-                <a href="/">
-                  <AiOutlineInstagram />
+                <a href="https://github.com/akhileshgowda7">
+                <AiFillGithub />
                 </a>
               </span>
               <span>
-                <a href="/">
-                  <GiEarthAmerica />
-                </a>
-              </span>
-              <span>
-                <a href="/">
+                <a href="https://www.linkedin.com/in/akhileshramesh/">
                   <FaLinkedinIn />
                 </a>
               </span>
@@ -50,7 +44,7 @@ I am excited to take on new challenges and opportunities to advance my learning 
       <Slide direction="right">
         <Profile>
           <img
-            src="./images/myImage compressed.png"
+            src={ProfilePicture}
             alt="profile"
           />
         </Profile>
@@ -152,8 +146,8 @@ const Social = styled.div`
 const Profile = styled.div`
 img {
   max-width: 100%;
-  filter: drop-shadow(0px 10px 10px #01be9570);
-  transition: transform 400ms ease-in-out;
+  filter: drop-shadow(0px 30px 30px #FF10F0);
+  transition: transform 200ms ease-in-out;
 }
 
 @media (max-width: 790px) {
