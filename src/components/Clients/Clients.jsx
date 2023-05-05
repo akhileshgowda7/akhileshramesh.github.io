@@ -7,20 +7,20 @@ import { Slide } from 'react-awesome-reveal';
 
 let clients = [
     {
-        name : "John Michel",
-        position : "web developer",
+        name : "Nanjesh Ramesh",
+        position : "Big Data Engineer at Amazon Web Services (AWS)",
         img_url : "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
-        stars : 3,
-        disc : `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-        Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`
+        stars : 5,
+        disc : `
+        Overall, I highly recommend Akhilesh for any software engineering role. His expertise in web development, dedication, and communication skills, combined with his ability to learn quickly and collaborate effectively, make him an invaluable asset to any team.`
     },
     {
-        name : "John Michel",
-        position : "web developer",
+        name : "Manasa Nagendra",
+        position : "Project Control Senior Analyst at Accenture",
         img_url : "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
-        stars : 4,
-        disc : `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-        Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`
+        stars : 5,
+        disc : `
+        Akhilesh is hard working, enthusiastic and consistently gave 100 percent effort to the team. His ability to adapt to new requirements was really impressive. Very disciplined at work and meticulous to details. Has very good knowledge in HTML, CSS and JavaScript.`
     },
     {
         name : "John Michel",
