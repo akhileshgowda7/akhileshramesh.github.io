@@ -23,21 +23,13 @@ let clients = [
         Akhilesh is hard working, enthusiastic and consistently gave 100 percent effort to the team. His ability to adapt to new requirements was really impressive. Very disciplined at work and meticulous to details. Has very good knowledge in HTML, CSS and JavaScript.`
     },
     {
-        name : "John Michel",
-        position : "web developer",
+        name : "Amith V",
+        position : "Associate at Simeio",
         img_url : "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
         stars : 5,
-        disc : `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-        Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`
+        disc : `I had the pleasure of working with Akhilesh during our undergraduate studies on two projects. He consistently displayed a strong work ethic, commitment to excellence, and excellent teamwork skills. Akhilesh is highly recommended for software development roles that require a talented, dedicated individual focused on delivering exceptional results`
     },
-    {
-        name : "John Michel",
-        position : "web developer",
-        img_url : "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
-        stars : 5,
-        disc : `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-        Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`
-    },
+   
 ]
 var settings = {
     dots: true,

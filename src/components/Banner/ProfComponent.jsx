@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { Slide } from "react-awesome-reveal";
-import ProfilePicture from "./images/ProfilePicture.png";
+import ProfilePicture from "./images/ProfilePicture1.png";
 const ProfComponent = () => {
   return (
     <Container id="home">
@@ -23,7 +23,7 @@ My attention to detail and problem-solving skills enable me to deliver high-qual
 
 I am excited to take on new challenges and opportunities to advance my learning curve and make a meaningful impact in the field of web development.
           </p>
-          <button >Let's talk</button>
+          <button >Let's Connect</button>
           <Social>
             <p>Check out my</p>
             <div className="social-icons">

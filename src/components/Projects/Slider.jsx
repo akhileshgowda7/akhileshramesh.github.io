@@ -3,28 +3,33 @@ import Slider from 'react-slick';
 import Project from './Project';
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import styled from 'styled-components';
+import movieProject from './images/booking system.jpg'
+import map4sciProject from './images/map4ci.png'
+import shoppingProject from './images/shopping website.png'
+import homeServices from './images/home-services.png'
 
 let data = [
     {
-        img : "https://res.cloudinary.com/ghazni/image/upload/v1661324124/Yt-portfolio/ui5_mnvdaw.png",
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
+        img : movieProject,
+        disc : "The movie ticket booking web application allowed customers to browse available movies, select showtimes, choose seats, and purchase tickets online, while theater owners and administrators had access to a customizable management portal. Key features included real-time seat selection, secure payment processing, and a mobile-first design.",
+        link: " https://drive.google.com/file/d/1F6dEC5qBYlcMiarvC4Ujdqgsi4dnRyi4/view"
     },
     {
-        img : "https://res.cloudinary.com/ghazni/image/upload/v1661324074/Yt-portfolio/ui4_jku3ol.png",
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
-    },
+      img : homeServices,
+      disc : "The Home-Services website is developed using the MERN stack, comprising MongoDB for data storage, Express.js for server-side application logic, React.js for the frontend user interface, and Node.js for server-side JavaScript runtime. RESTful APIs are implemented using Express.js to facilitate communication between the client and server. The website incorporates responsive design principles and utilizes MongoDB as a scalable database to efficiently handle user data, service listings, reviews, and other relevant information",
+      link:"https://github.com/akhileshgowda7/Home-Services"
+  },
     {
-        img : "https://res.cloudinary.com/ghazni/image/upload/v1661323981/Yt-portfolio/ui2_wtollo.png",
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
-    },
+      img : shoppingProject,
+      disc : "This project was created using the popular web development stack of React, Express, Node, and MongoDB. As a full-stack developer, I utilized these technologies to build a responsive and user-friendly shopping website that allows users to browse and purchase products with ease. With a backend built on Node and Express, data is efficiently stored and retrieved from a MongoDB database, ensuring that the website can handle a large number of products and users. This project showcases my skills in full-stack web development and my ability to build robust, scalable web applications",
+      link:"https://github.com/akhileshgowda7/React/tree/main/Shoping-Website"
+  },
     {
-        img : "https://res.cloudinary.com/ghazni/image/upload/v1661323980/Yt-portfolio/ui3_akynn4.png",
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
+        img :map4sciProject ,
+        disc : "This project designs, implements, and deploys efficient algorithms for multi-level network representations that support interactive exploration by general audiences. Using the familiar Google map metaphor, the interactive visualizations make it easy to identify important nodes, major pathways, and clusters across multiple levels",
+        link: "https://cns-iu.github.io/map4sci/home"
     },
-    {
-        img : "https://res.cloudinary.com/ghazni/image/upload/v1661323979/Yt-portfolio/ui1_n3uiaz.png",
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
-    }
+   
 ];
 
 var settings = {
@@ -102,7 +107,7 @@ const Buttons = styled.div`
     height: 2rem;
     background-color: rgba(255, 255, 255, 0.100);
     cursor: pointer;
-    color: #01be96;
+    color: #FF10F0;
     border: none;
     position: absolute;
     top: 45%;

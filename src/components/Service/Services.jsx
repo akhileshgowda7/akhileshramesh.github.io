@@ -11,7 +11,7 @@ const Services = () => {
     <Container id="service">
       <Slide direction="down">
         <h4>
-          My <span className="green">services</span>
+          My <span className="green">Expertise</span>
         </h4>
         <h1>What I Do</h1>
       </Slide>
@@ -19,25 +19,22 @@ const Services = () => {
         <Slide direction="left">
           <Card
             Icon={MdDesignServices}
-            title={"ui/ux designer"}
-            disc={`Lorem ipsum dolor sit amet consectetur 
-                adipisicing elit. Commodi et asperiores cum exercitationem officia rem amet minus magnam? Cum, voluptatem?`}
+            title={"Web Development"}
+            disc={`As a web developer, I have a strong foundation in HTML, CSS, and JavaScript, as well as experience working with front-end frameworks such as React and Angular. I specialize in creating responsive and dynamic web pages that provide engaging user experiences `}
           />
         </Slide>
         <Slide direction="up">
           <Card
             Icon={FiCodesandbox}
-            title={"graphic designer"}
-            disc={`Lorem ipsum dolor sit amet consectetur 
-                adipisicing elit. Commodi et asperiores cum exercitationem officia rem amet minus magnam? Cum, voluptatem?`}
+            title={"Database Management and Administration"}
+            disc={`I have extensive experience in designing, developing, and maintaining databases that support a wide range of applications. My expertise includes working with both relational and non-relational databases, including SQL, PostgreSQL, and MongoDB`}
           />
         </Slide>
         <Slide direction="right">
           <Card
             Icon={CgWebsite}
-            title={"web designer"}
-            disc={`Lorem ipsum dolor sit amet consectetur 
-                adipisicing elit. Commodi et asperiores cum exercitationem officia rem amet minus magnam? Cum, voluptatem?`}
+            title={"Backend Development"}
+            disc={`As a backend developer, I have extensive experience working with REST APIs, Node.js, Express, and GraphQL to build scalable and robust web applications. My expertise includes designing and implementing APIs, optimizing server-side performance, and ensuring the security and reliability of backend systems.`}
           />
         </Slide>
       </Cards>
