@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ab4c1555.css",
+    "main.js": "/static/js/main.08fbfe02.js",
+    "static/media/home-services.png": "/static/media/home-services.a7459bbfcbe7d247f5ff.png",
+    "static/media/ProfilePicture1.png": "/static/media/ProfilePicture1.1d7ec92de743539a9170.png",
+    "static/media/shopping website.png": "/static/media/shopping website.5c75cd5568a2a5f174a6.png",
+    "static/media/map4ci.png": "/static/media/map4ci.6bc144c8341f7d75cdd8.png",
+    "static/media/booking system.jpg": "/static/media/booking system.381a35eb214ba3967421.jpg",
+    "index.html": "/index.html",
+    "main.ab4c1555.css.map": "/static/css/main.ab4c1555.css.map",
+    "main.08fbfe02.js.map": "/static/js/main.08fbfe02.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab4c1555.css",
+    "static/js/main.08fbfe02.js"
+  ]
+}
