@@ -10,16 +10,17 @@ const ProfComponent = () => {
       <Slide direction="left">
         <Texts>
           <h4>
-            Hello <span className="green">I'am</span>
+            Hello <span className="green">I'm</span>
           </h4>
           <h1 className="green">Akhilesh Ramesh</h1>
           <h3>Full Stack developer</h3>
           <p>
-          I am a passionate software engineer with a focus on web development. Currently, I am pursuing my master's degree in computer science at Indiana University, Bloomington, where I have gained expertise in ReactJS, AngularJS, and NodeJS.<br/><br/>
 
-As a software developer at Indiana University's Cyberinfrastructure for Network Science Center, I have had the opportunity to work on a variety of web applications, where I am constantly learning and exploring new technologies to enhance my knowledge and skills. I have a strong desire to contribute to organizational objectives and am actively seeking career opportunities in software development.<br/><br/>
+          I am a full-stack developer at Indiana University Foundation, where I design and develop web applications that enhance the online presence and visibility of the organization. With a master's degree in computer science from Indiana University Bloomington, I have gained in-depth knowledge and skills in web development frameworks such as React, Vue, Angular, NodeJs and .Net. which I apply to various projects and challenges.
 
-My attention to detail and problem-solving skills enable me to deliver high-quality outputs that meet customer needs and expectations. I am committed to adhering to industry standards and maintaining a codebase that is clean and efficient.
+<br/><br/>
+
+My attention to detail and problem-solving skills enable me to deliver high-quality outputs that meet customer needs and expectations.
 
 I am excited to take on new challenges and opportunities to advance my learning curve and make a meaningful impact in the field of web development.
           </p>
