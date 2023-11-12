@@ -33,12 +33,18 @@ let data = [
 ];
 
 var settings = {
+  
+  autoplay: true, 
+  autoplaySpeed: 3000, 
+  pauseOnHover: true, 
+  swipeToSlide: true, 
+  adaptiveHeight: true, 
     className: "center",
     centerMode: true,
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: 2,
     slidesToScroll: 1,
     initialSlide: 0,
     arrows : false,
@@ -80,7 +86,7 @@ const SliderComp = () => {
     ))
   return (
     <Container>
-      <Slider ref={arrowRef} {...settings}>
+      <Slider ref={arrowRef} {...settings} >
       {sliderProject}
       </Slider>
       <Buttons>
@@ -112,9 +118,16 @@ const Buttons = styled.div`
     position: absolute;
     top: 45%;
     right: -1rem;
+    &:hover {
+      // Add hover effect
+      background-color: rgba(255, 255, 255, 0.3);
+    }
   }
 
   .back{
     left: -1rem;
+  }
+  .next {
+    right: -1rem;
   }
 `
