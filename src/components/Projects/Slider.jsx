@@ -33,12 +33,18 @@ let data = [
 ];
 
 var settings = {
+  
+  autoplay: true, // Optional: auto-play slides
+  autoplaySpeed: 3000, // Adjust speed as needed
+  pauseOnHover: true, // Pause auto-play on hover
+  swipeToSlide: true, // Better touch support
+  adaptiveHeight: true, // Adapt height to the content
     className: "center",
     centerMode: true,
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: 2,
     slidesToScroll: 1,
     initialSlide: 0,
     arrows : false,
@@ -80,7 +86,7 @@ const SliderComp = () => {
     ))
   return (
     <Container>
-      <Slider ref={arrowRef} {...settings}>
+      <Slider ref={arrowRef} {...settings} className='slideContainer'>
       {sliderProject}
       </Slider>
       <Buttons>
@@ -101,6 +107,11 @@ const Container = styled.div`
   position: relative;
 `
 
+const slideContainer = styled.div`
+width: 100%; // Full width of the parent container
+height: 600px; // Increased height of the slider
+`
+
 const Buttons = styled.div`
   button{
     width: 2rem;
@@ -112,9 +123,16 @@ const Buttons = styled.div`
     position: absolute;
     top: 45%;
     right: -1rem;
+    &:hover {
+      // Add hover effect
+      background-color: rgba(255, 255, 255, 0.3);
+    }
   }
 
   .back{
     left: -1rem;
+  }
+  .next {
+    right: -1rem;
   }
 `
