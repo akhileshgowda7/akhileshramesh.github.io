@@ -25,7 +25,7 @@ const Footer = () => {
             <h1>Address:</h1>
           </Slide>
           <Slide direction="left">
-            <p>3881 E Barrington Dr, Bloomington, Indiana(IN), 47408</p>
+            <p>2260 S Oakdale Dr, Bloomington, Indiana(IN), 47403</p>
           </Slide>
         </div>
         <div className="links">
